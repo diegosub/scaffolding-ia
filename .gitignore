@@ -1,0 +1,94 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Logs & debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+bower_components/
+vendor/
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+.next/
+.nuxt/
+.turbo/
+.cache/
+.parcel-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+.env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+htmlcov/
+
+# Rust
+target/
+
+# Java / JVM
+*.class
+*.jar
+*.war
+.gradle/
+
+# Misc tooling
+*.local
+.tmp/
+temp/
+tmp/
+
+# Agent / skill install noise
+.agents/*.backup
+.agents/.skill-lock.json.backup
+
+# RTK local artifacts (if any land in the repo)
+.rtk/
